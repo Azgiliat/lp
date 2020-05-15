@@ -7,7 +7,6 @@ const req = require.context('@/assets/icons', true);
 req.keys().forEach(function (key) {
   req(key);
 }); //building sprite
-// import fonts from '@/assets/css/fonts.scss';
 
 new Vue({
   el: '#app',

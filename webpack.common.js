@@ -31,7 +31,6 @@ module.exports = {
           esModule: false,
           publicPath: 'static',
           outputPath: './static',
-          //name: '[path][name].[ext]'
         }
       },
       {
@@ -86,7 +85,6 @@ module.exports = {
   output: {
     filename: `index.js`,
     path: path.join(__dirname, `docs`),
-    publicPath: '/'
   },
   plugins: [
     new HtmlWebpackPlugin({
